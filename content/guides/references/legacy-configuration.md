@@ -164,7 +164,7 @@ The Node version is used in Cypress to:
 - Execute code in the
   [pluginsFile](/guides/references/configuration#Folders-Files).
 
-<DocsImage src="/img/guides/configuration/test-runner-settings-nodejs-version.jpg" alt="Node version in Settings in Test Runner" ></DocsImage>
+<DocsImage src="/img/guides/configuration/test-runner-settings-nodejs-version.jpg" alt="Node version in Settings in test-runner" ></DocsImage>
 
 ### Experiments
 
@@ -580,7 +580,7 @@ We've disabled running GC during
 interact with the browser.
 
 Because GC adds additional time to the overall run, we've added the amount of
-time this routine has taken to the bottom of the Command Log in the Test Runner.
+time this routine has taken to the bottom of the Command Log in the test-runner.
 
 <DocsImage src="/img/guides/configuration/firefox-gc-interval-in-command-log.jpg" alt="GC duration shown"></DocsImage>
 
@@ -709,7 +709,7 @@ You can also find a few tips on setting the `baseUrl` in this
 When using the `--spec <path or mask>` argument, make it relative to the
 project's folder. If the specs are still missing, run Cypress with
 [DEBUG logs](/guides/references/troubleshooting#Print-DEBUG-logs) with the
-following setting to see how the Test Runner is looking for spec files:
+following setting to see how the test-runner is looking for spec files:
 
 ```shell
 DEBUG=cypress:cli,cypress:server:specs

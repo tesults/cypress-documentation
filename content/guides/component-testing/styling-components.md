@@ -117,7 +117,7 @@ best examples of this is a modal component. Common modal bugs include: z-index
 issues, inability to dismiss the overlay, and inability to interact with the
 parent page _after_ dismissing the modal.
 
-Node-based test runners like Jest or Vitest can't catch these kinds of issues
+Node-based test-runners like Jest or Vitest can't catch these kinds of issues
 because they render your styles in **emulated DOM environments** like JSDom.
 JSDom doesn't have a box model and certain kinds of assertions, such as if a
 parent is covering a child and preventing clicks, are not possible to test

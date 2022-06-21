@@ -120,7 +120,7 @@ Demo recipes from the blog posts at [Cypress blog](https://www.cypress.io/blog).
 | [Application Code](https://github.com/cypress-io/cypress-example-recipes/tree/master/examples/unit-testing__application-code) | Import and test your own application code |
 
 **Note:** looking for the React/Vue component testing recipes? Read the
-[Introducing the Cypress Component Test Runner– new in 7.0.0](https://www.cypress.io/blog/2021/04/06/introducing-the-cypress-component-test-runner/)
+[Introducing the Cypress Component test-runner– new in 7.0.0](https://www.cypress.io/blog/2021/04/06/introducing-the-cypress-component-test-runner/)
 blog post.
 
 ## Server Communication

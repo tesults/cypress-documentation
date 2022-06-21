@@ -342,7 +342,7 @@ extra setup.
 ### Clashing types with Jest
 
 If you are using both Jest and Cypress in the same project, the TypeScript types
-registered globally by the two test runners can clash. For example, both Jest
+registered globally by the two test-runners can clash. For example, both Jest
 and Cypress provide the clashing types for the `describe` and `it` functions.
 Both Jest and Expect (bundled inside Cypress) provide the clashing types for the
 `expect` assertion, etc. There are two solutions to disentangle the types:
