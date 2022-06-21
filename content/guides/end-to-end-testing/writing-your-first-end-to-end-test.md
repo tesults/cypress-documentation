@@ -181,7 +181,7 @@ describe('My First Test', () => {
 })
 ```
 
-Save the file and switch back over to the Cypress test-runner. You might notice
+Save the file and switch back over to the Cypress test runner. You might notice
 a few things:
 
 1. The [Command Log](/guides/core-concepts/cypress-app#Command-Log) now shows

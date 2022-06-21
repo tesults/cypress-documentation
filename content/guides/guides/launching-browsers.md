@@ -37,7 +37,7 @@ using number of browsers including:
 - [Firefox Nightly](https://www.mozilla.org/firefox/nightly/)
 
 Cypress automatically detects available browsers on your OS. You can switch the
-browser in the Cypress test-runner by using the drop down near the top right
+browser in the Cypress test runner by using the drop down near the top right
 corner:
 
 <DocsImage src="/img/guides/launching-browsers/v10/browser-list-dropdown.png" alt="Select a different browser"></DocsImage>
@@ -263,7 +263,7 @@ other browser of the `chromium` family.
 
 If you modify the list of browsers, you can see the
 [resolved configuration](/guides/references/configuration#Resolved-Configuration)
-in the **Settings** tab of the Cypress test-runner.
+in the **Settings** tab of the Cypress test runner.
 
 ### Unsupported Browsers
 

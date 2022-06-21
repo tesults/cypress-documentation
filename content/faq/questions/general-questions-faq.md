@@ -396,7 +396,7 @@ it('adds todos', () => {
 Take a look at
 [Add GUI to your E2E API tests](https://www.cypress.io/blog/2017/11/07/add-gui-to-your-e2e-api-tests/)
 blog post, then at [cy-api](https://github.com/bahmutov/cy-api) plugin that
-pipes the request and response objects into the Cypress test-runners's GUI for
+pipes the request and response objects into the Cypress test runners's GUI for
 easier debugging.
 
 A good strategy for writing targeted API tests is to use them to reach the

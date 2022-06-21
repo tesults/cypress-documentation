@@ -341,7 +341,7 @@ and reuse it across tests.
 
 ### Migrating existing tests
 
-Enabling the `experimentalSessionAndOrigin` flag makes the test-runner work
+Enabling the `experimentalSessionAndOrigin` flag makes the test runner work
 slightly differently, and some test suites that rely on the existing behaviour
 may have to be updated. The most important of these changes is **test
 isolation**. This means that after every test, the current page is reset to

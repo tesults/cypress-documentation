@@ -185,7 +185,7 @@ The Node version is used in Cypress to:
 - Execute code in the
   [pluginsFile](/guides/references/configuration#Folders-Files).
 
-<DocsImage src="/img/guides/configuration/test-runner-settings-nodejs-version.jpg" alt="Node version in Settings in Cypress"></DocsImage>
+<DocsImage src="/img/guides/configuration/test runner-settings-nodejs-version.jpg" alt="Node version in Settings in Cypress"></DocsImage>
 
 ### Experiments
 
@@ -633,8 +633,8 @@ We've disabled running GC during
 interact with the browser.
 
 Because GC adds additional time to the overall run, we've added the amount of
-time this routine has taken to the bottom of the Command Log in the Cypress
-test-runner.
+time this routine has taken to the bottom of the Command Log in the Cypress test
+runner.
 
 <DocsImage src="/img/guides/configuration/firefox-gc-interval-in-command-log.jpg" alt="GC duration shown"></DocsImage>
 

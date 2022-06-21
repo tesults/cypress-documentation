@@ -644,7 +644,7 @@ A _Record Key_ is a GUID that's generated automatically by Cypress once you've
 project and authenticate that your project is even _allowed_ to record tests.
 
 You can find your project's record key inside of the _Settings_ tab in the
-Cypress test-runner.
+Cypress test runner.
 
 <DocsImage src="/img/dashboard/record-key-shown-in-desktop-gui-configuration.jpg" alt="Record Key in Configuration Tab" ></DocsImage>
 

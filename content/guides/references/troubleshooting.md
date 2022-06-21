@@ -112,7 +112,7 @@ from a known filesystem path to bypass browser auto detection.
 
 You can see the full list of found browsers and their properties within the
 [resolved configuration](/guides/references/configuration#Resolved-Configuration)
-in the **Settings** tab of the Cypress test-runner.
+in the **Settings** tab of the Cypress test runner.
 
 Another way to log what is found by Cypress is to run Cypress with the
 [DEBUG environment variable](#Print-DEBUG-logs) set to `cypress:launcher`. This
@@ -191,7 +191,7 @@ cypress open --browser C:/User/Application/browser.exe:chrome
 
 ## Allow the Cypress Chrome extension
 
-Cypress utilizes a Chrome extension within the Cypress test-runner in order to
+Cypress utilizes a Chrome extension within the Cypress test runner in order to
 run properly. If you or your company block specific Chrome extensions, this may
 cause problems with running Cypress. You will want to ask your administrator to
 allow the Cypress extension ID below:
@@ -433,7 +433,7 @@ verbose `cypress-verbose:server:util:process_profiler` debug stream.
 
 In some cases the [Command Log](/guides/core-concepts/cypress-app#Command-Log),
 responsible for displaying test commands, assertions, and statuses in the
-Cypress test-runner, may cause performance issues resulting in slower tests or
+Cypress test runner, may cause performance issues resulting in slower tests or
 the browser crashing.
 
 In order to isolate these issues, you can hide the Command Log by passing the

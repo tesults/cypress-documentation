@@ -22,13 +22,13 @@ Test.
 
 ## Command Log
 
-The lefthand side of the Cypress test-runner is a visual representation of your
+The lefthand side of the Cypress test runner is a visual representation of your
 test suite. Each test block is properly nested and each test, when clicked,
 displays every Cypress command and assertion executed within the test's block as
 well as any command or assertion executed in relevant `before`, `beforeEach`,
 `afterEach`, and `after` hooks.
 
-<DocsImage src="/img/guides/cypress-app/v10/command-log.png" alt="Cypress test-runner command log" width-600></DocsImage>
+<DocsImage src="/img/guides/cypress-app/v10/command-log.png" alt="Cypress test runner command log" width-600></DocsImage>
 
 ### Open files in your IDE
 
@@ -55,9 +55,9 @@ you may want to lower the `numTestsKeptInMemory` in your
 </Alert>
 
 In the following example, hovering over the `CONTAINS` command in the Command
-Log changes the state of the Cypress test-runner:
+Log changes the state of the Cypress test runner:
 
-<DocsImage src="/img/guides/cypress-app/v10/first-test-hover-contains.png" alt="Hovering over the contains tab highlights the dom element in the App in the Cypress test-runner"></DocsImage>
+<DocsImage src="/img/guides/cypress-app/v10/first-test-hover-contains.png" alt="Hovering over the contains tab highlights the dom element in the App in the Cypress test runner"></DocsImage>
 
 Cypress automatically travels back in time to a snapshot of when a hovered-over
 command resolved. Additionally, since [`cy.contains()`](/api/commands/contains)
@@ -319,7 +319,7 @@ changes.
 ### Finding Selectors
 
 To open the Selector Playground, click the <Icon name="crosshairs"></Icon>
-button next to the URL at the top of the Cypress test-runner. Hover over
+button next to the URL at the top of the Cypress test runner. Hover over
 elements in your app to preview a unique selector for that element in the
 tooltip.
 
@@ -447,7 +447,7 @@ forward through each command in the test.
 
 In action:
 
-<DocsVideo src="/img/snippets/first-test-debugging-30fps.mp4" title="Pause test-runner demo"></DocsVideo>
+<DocsVideo src="/img/snippets/first-test-debugging-30fps.mp4" title="Pause test runner demo"></DocsVideo>
 
 ## History
 

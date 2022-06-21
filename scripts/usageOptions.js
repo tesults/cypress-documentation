@@ -10,7 +10,7 @@ module.exports.createUsageOptions = (option, type) => {
 
     log: () => {
       /* eslint-disable quotes */
-      const url = `{% url 'Command log' test-runner#Command-Log %}`
+      const url = `{% url 'Command log' test runner#Command-Log %}`
 
       return `Displays the command in the ${url}`
     },

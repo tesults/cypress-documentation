@@ -120,8 +120,9 @@ Demo recipes from the blog posts at [Cypress blog](https://www.cypress.io/blog).
 | [Application Code](https://github.com/cypress-io/cypress-example-recipes/tree/master/examples/unit-testing__application-code) | Import and test your own application code |
 
 **Note:** looking for the React/Vue component testing recipes? Read the
-[Introducing the Cypress Component test-runner– new in 7.0.0](https://www.cypress.io/blog/2021/04/06/introducing-the-cypress-component-test-runner/)
-blog post.
+[Introducing the Cypress Component test runner– new in
+7.0.0](https://www.cypress.io/blog/2021/04/06/introducing-the-cypress-component-test
+runner/) blog post.
 
 ## Server Communication
 
@@ -153,7 +154,7 @@ blog post.
 | [Conditional Parallelization](https://glebbahmutov.com/blog/parallel-or-not/)                                          | Run Cypress in parallel mode on CircleCI depending on environment variables                |
 | [`.should()` Callback](https://glebbahmutov.com/blog/cypress-should-callback/)                                         | Examples of `.should(cb)` assertions                                                       |
 | [React component testing](https://glebbahmutov.com/blog/cypress-jump/)                                                 | Create a React component using JSX and inject it into live application from a Cypress test |
-| [Unit testing Vuex data store](https://dev.to/bahmutov/unit-testing-vuex-data-store-using-cypress-io-test-runner-3g4n) | Complete walkthrough for anyone trying to unit test a data store                           |
+| [Unit testing Vuex data store](https://dev.to/bahmutov/unit-testing-vuex-data-store-using-cypress-io-test runner-3g4n) | Complete walkthrough for anyone trying to unit test a data store                           |
 | [Triple Tested Static Site](https://glebbahmutov.com/blog/triple-tested/)                                              | How to test static sites three times before and after deployment to GitHub pages           |
 
 ## Community Recipes

@@ -23,7 +23,7 @@ Make sure you [install](/guides/getting-started/installing-cypress) and
 ### Set up a project to record
 
 1. Click on the **Runs** tab of your project within
-   [Cypress test-runner](/guides/core-concepts/cypress-app).
+   [Cypress test runner](/guides/core-concepts/cypress-app).
 2. Click **Connect to Dashboard**.
 3. You will need to log in to record your tests, so you'll be prompted to log in
    to the Cypress Dashboard here if you haven't already done so.

@@ -51,7 +51,7 @@ modified from the `setupNodeEvents` function in the Cypress configuration.**
 
 </Alert>
 
-Resolved values will show up in the "Settings" tab of the Cypress test-runner.
+Resolved values will show up in the "Settings" tab of the Cypress test runner.
 
 <DocsImage src="/img/guides/configuration/plugin-configuration.png" alt="Resolved configuration in the Desktop app" ></DocsImage>
 

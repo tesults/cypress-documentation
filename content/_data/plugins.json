@@ -801,7 +801,7 @@
       "plugins": [
         {
           "name": "cypress-angular-unit-test",
-          "description": "Test Angular component using Cypress test-runner",
+          "description": "Test Angular component using Cypress test runner",
           "link": "https://github.com/bahmutov/cypress-angular-unit-test",
           "keywords": ["component", "angular"],
           "badge": "experimental"

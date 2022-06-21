@@ -1155,7 +1155,7 @@ This should only affect users who are explicitly asserting on global errors. See
 ### Component Testing
 
 In 7.0, component testing is no longer experimental. Cypress now ships with a
-dedicated component test-runner with a new UI and dedicated commands to launch
+dedicated component test runner with a new UI and dedicated commands to launch
 it.
 
 **Changes are required for all existing projects**. The required changes are
@@ -1197,7 +1197,7 @@ removed
 
 #### 2. Install component testing dependencies
 
-The Component test-runner requires the following dependencies:
+The Component test runner requires the following dependencies:
 
 - Framework-specific bindings such as
   [`@cypress/react`](https://www.npmjs.com/package/@cypress/react).

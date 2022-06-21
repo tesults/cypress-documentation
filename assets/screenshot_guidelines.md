@@ -794,7 +794,7 @@ context('Actions', () => {
 ```
 
 http://localhost:3000/guides/core-concepts/cypress-app#Open-files-in-your-IDE (gif)
-1) Position text editor over test-runner window & return to runner so that things overlap when opening. Include doc (Mac) to show the icon bounce. 
+1) Position text editor over test runner window & return to runner so that things overlap when opening. Include doc (Mac) to show the icon bounce. 
 
 http://localhost:3000/guides/core-concepts/cypress-app#Time-Traveling
 ```js
