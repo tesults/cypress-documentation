@@ -119,6 +119,7 @@
         ["end[- ]point(s?)", "endpoint$1"],
         ["file[- ]name(s?)", "filename$1"],
         ["can[- ]not", "cannot$1"],
+        ["test[- ]runner", "testrunner$1"]
 
         // Multiple words
         ["back-?end(s?)", "back end$1"],
