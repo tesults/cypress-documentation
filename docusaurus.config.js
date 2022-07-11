@@ -39,11 +39,11 @@ const config = {
           editUrl: "https://github.com/cypress-io/cypress-docs/tree/master/",
           routeBasePath: "/",
           lastVersion: "current",
-          // versions: {
-          //   current: {
-          //     label: "10",
-          //   },
-          // },
+          versions: {
+            current: {
+              label: "10",
+            },
+          },
         },
         blog: false,
         theme: {
@@ -73,10 +73,10 @@ const config = {
     {
       navbar: {
         title: "",
+        style: "dark",
         logo: {
           alt: "My Site Logo",
-          src: "/img/logo/cypress-logo-light.png",
-          srcDark: "/img/logo/cypress-logo-dark.png",
+          src: "/img/logo/cypress-logo-dark.png",
         },
         items: [
           {
@@ -93,14 +93,16 @@ const config = {
             position: "left",
           },
           { to: "https://learn.cypress.io", label: "Learn", position: "left" },
-          // {
-          //   type: "docsVersionDropdown",
-          //   position: "right",
-          //   dropdownActiveClassDisabled: true,
-          // },
+          {
+            type: "docsVersionDropdown",
+            position: "right",
+            dropdownActiveClassDisabled: true,
+          },
           {
             href: "https://github.com/cypress-io/cypress-docs",
             label: "GitHub",
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             position: "right",
           },
         ],
