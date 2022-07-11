@@ -13,7 +13,6 @@ import E2EOrCtTabs from "@site/src/components/e2e-or-ct-tabs";
 import Icon from "@site/src/components/icon";
 import ImportMountFunctions from "@site/docs/partials/_import-mount-functions.mdx";
 import IntellisenseCodeCompletion from "@site/docs/partials/_intellisense-code-completion.mdx";
-import List from "@site/src/components/list";
 import SingleDomainWorkaround from "@site/docs/partials/_single-domain-workaround.mdx";
 import SupportFileConfiguration from "@site/docs/partials/_support-file-configuration.mdx";
 import Tabs from "@theme/Tabs";
@@ -123,7 +122,6 @@ export default {
   Icon,
   ImportMountFunctions,
   IntellisenseCodeCompletion,
-  List,
   SingleDomainWorkaround,
   SupportFileConfiguration,
   Tabs,
