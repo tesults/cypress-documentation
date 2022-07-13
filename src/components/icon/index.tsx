@@ -2,8 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { IconProps } from "./types";
 
-export default function Icon({ name }) {
+export default function Icon({ name, color }) {
   const iconName = name === "github" ? ["fab", "github"] : name;
 
-  return <FontAwesomeIcon icon={iconName} />;
+  return <FontAwesomeIcon icon={iconName} color={color} />;
 }
