@@ -86,7 +86,7 @@ const config = {
           },
           { to: "/api/commands/and", label: "API", position: "left" },
           { to: "/plugins", label: "Plugins", position: "left" },
-          { to: "/examples/recipes", label: "Examples", position: "left" },
+          { to: "/examples/examples/recipes", label: "Examples", position: "left" },
           {
             to: "/faq/questions/using-cypress-faq",
             label: "FAQ",
