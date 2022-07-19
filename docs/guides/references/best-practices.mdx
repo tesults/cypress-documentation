@@ -1,7 +1,14 @@
 ---
 title: Best Practices
-layout: toc-top
+hide_table_of_contents: true
 ---
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline
+  // Only show h2 headings
+  toc={toc.filter((node) => node.level === 2)}
+/>
 
 :::info
 
@@ -159,8 +166,12 @@ Cypress.Commands.add('getBySelLike', (selector, ...args) => {
 })
 ```
 
-> _<Icon name="github"></Icon> Source:
-> [cypress/support/commands.ts](https://github.com/cypress-io/cypress-realworld-app/blob/develop/cypress/support/commands.ts)_
+:::note
+
+_<Icon name="github"></Icon> Source:
+[cypress/support/commands.ts](https://github.com/cypress-io/cypress-realworld-app/blob/develop/cypress/support/commands.ts)_
+
+:::
 
 ### Text Content:
 
@@ -813,8 +824,12 @@ beforeEach(function () {
 })
 ```
 
-> _<Icon name="github"></Icon> Source:
-> [cypress/tests/ui/auth.cy.ts](https://github.com/cypress-io/cypress-realworld-app/blob/develop/cypress/tests/ui/auth.spec.ts)_
+:::note
+
+_<Icon name="github"></Icon> Source:
+[cypress/tests/ui/auth.cy.ts](https://github.com/cypress-io/cypress-realworld-app/blob/develop/cypress/tests/ui/auth.spec.ts)_
+
+:::
 
 The `db:seed` task is defined within the
 [setupNodeEvents](/guides/tooling/plugins-guide#Using-a-plugin) function of the
@@ -836,8 +851,12 @@ on('task', {
 
 :::
 
-> _<Icon name="github"></Icon> Source:
-> [cypress/plugins/index.ts](https://github.com/cypress-io/cypress-realworld-app/blob/develop/cypress/plugins/index.ts)_
+:::note
+
+_<Icon name="github"></Icon> Source:
+[cypress/plugins/index.ts](https://github.com/cypress-io/cypress-realworld-app/blob/develop/cypress/plugins/index.ts)_
+
+:::
 
 The same practice above can be used for any type of database (PostgreSQL,
 MongoDB, etc.). In this example, a request is sent to a back end API, but you
